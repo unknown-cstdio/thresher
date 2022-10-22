@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400;1,900&family=Overpass+Mono:wght@700&display=swap');
+
+#ion-home-container {
+	padding: 0;
+	margin: 0;
+	background: #212121;
+	color: white;
+}
+
+#ion-home-container, #ion-home-container *, #ion-home-container *::before, #ion-home-container *::after {
+	box-sizing: border-box;
+}
+
+#ion-header {
+	display: inline-block;
+	border: 7px solid white;
+	padding: 13px;
+	margin: 1em 1em;
+	font-size: 1.7em;
+	font-family: 'Overpass Mono', monospace;
+	font-weight: 700;
+	text-transform: lowercase;
+}
+
+.ion-item-container {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	max-width: 90em;
+	margin: 2em auto 0;
+}
+
+.ion-item.ion-overview {
+	flex: auto;
+	padding: 2em 20% 2em 20%;
+}
+
+.ion-item {
+	color: white;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	border: 1px solid rgba(255, 255, 255, 0.01);
+	min-width: 31em;
+	display: inline-block;
+	position: relative;
+	transition: opacity .5s, border-color .5s .7s;
+	opacity: 1;
+	flex: 1;
+}
+
+.ion-item-text {
+	padding: 3em;
+	display: block;
+	order: 1;
+	position: relative;
+	z-index: 2;
+	color: white !important;
+	/* transition: color .5s; */
+}
+
+.ion-item-image {
+	background-size: cover;
+	background-position: center;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	order: 0;
+	z-index: 1;
+    box-shadow: inset 0 0 0 20em rgba(0, 0, 0, 0.7);
+	transition: opacity .5s .7s, box-shadow .5s;
+}
+
+.ion-quote {
+	font-size: 1.7em;
+	font-weight: 700;
+	padding: 0 0 1.5em 0;
+}
+
+.ion-bottom {
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	overflow: hidden;
+	transition: opacity .5s .7s;
+	max-height: 10em;
+}
+
+.ion-desc {
+	width: 15em;
+	display: inline-block;
+}
+
+.ion-link {
+	display: inline-block;
+	text-align: right;
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+.ion-link span {
+	display: inline-block;
+}
+
+.ion-link span hr {
+	margin-top: -1px;
+	margin-bottom: -5px;
+	width: 0px;
+	transition: .3s;
+	margin-left: 100%;
+	border-color: transparent;
+}
+
+.ion-item.hidden {
+	opacity: 0;
+	border-color: transparent;
+}
+
+.ion-item.hidden .ion-bottom {
+	opacity: 0;
+}
+
+.ion-item.hidden .ion-item-text {
+	background-color: transparent;
+}
+
+.ion-item.hidden .ion-item-image {
+	opacity: 0;
+}
+
+@media (hover: hover) {
+
+	.ion-item:hover .ion-link span hr {
+		width: 100%;
+		margin-left: 0;
+		border-color: white;
+	}
+
+	.ion-item:hover .ion-item-text {
+		color: white;
+	}
+	
+	.ion-item:hover .ion-item-image {
+		box-shadow: inset 0 0 0 20em rgba(48, 48, 48, 0.7);
+	}
+
+}
+
+@media (max-width: 650px) {
+
+	.ion-item.ion-overview {
+		flex: 1;
+		padding: 2em;
+	}
+
+	.ion-item {
+		min-width: auto;
+	}
+
+}

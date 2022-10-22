@@ -1,0 +1,37 @@
+.path {
+    /* fill: rgb(132, 0, 255); */
+    /* stroke: rgb(155, 155, 155); */
+    stroke-width: 1px;
+  }
+  
+  .path:hover {
+    cursor: pointer;
+    fill: rgb(255, 145, 0);
+    fill-opacity: 0.5;
+  }
+  
+  
+  .map-canvas {
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: #fff;
+  }
+
+  .lg-view{
+    display:inline-block;
+ }
+
+ .sm-lg-view{
+    display:none;
+ }
+
+@media screen and (max-width: 650px) {
+    .lg-view{
+       display:none;
+    }
+  
+    .sm-lg-view{
+       display:inline-block;
+    }
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* * {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: initial !important;
+} */
+
+html {
+	overflow-x: hidden;
+}
+
+.mainAE .row {
+	margin: 0 auto;
+}
+
+.mainAE img,
+video {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.mainAE .gray {
+	color: gray;
+}
+
+.mainAE .white {
+	color: white;
+}
+
+.mainAE .title {
+	text-align: center;
+	margin: 5rem 0;
+}
+
+.mainAE .intro-caption {
+	max-width: 1000px;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto 10px;
+}
+
+.mainAE .intro-caption p {
+	max-width: 1000px;
+}
+
+.mainAE {
+	/* background: white; */
+	position: relative;
+	padding: 0.5rem 1rem 2rem 1rem;
+	font-family: 'Lora', serif;
+}
+
+.mainAE::before {
+	content: "";
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	top: -100vh;
+}
+
+.mainAE .author-date {
+	margin-bottom: 30px;
+}
+
+.mainAE .author-date p {
+	margin-bottom: 5px;
+}
+
+.mainAE h2 {
+	margin: 3rem 0 1rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.mainAE .text-block {
+	margin: 0 auto;
+	max-width: 600px;
+	font-size: 16px;
+	background-color: rgba(255,255,255,0.6);
+	padding: 15px;
+}
+
+.mainAE a {
+	color: #252f67;
+	text-decoration: none;;
+	border-bottom: 1px solid #252f67;
+	transition: 0.2s;
+}
+.mainAE a:hover {
+	background-color: lightgrey;
+}
+
+.mainAE #media~p {
+	margin-top: 30px;
+}
+
+.mainAE .media-content {
+	margin-bottom: 2rem;
+}
+
+.mainAE .media-content .row {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.mainAE .media-content .row.align-items-start {
+	max-width: 900px;
+}
+
+.mainAE .media-content .caption {
+	margin-top: -10px;
+	font-size: 14px;
+}
+
+.mainAE .floating {
+	width: 200px;
+	z-index: -1;
+}
+.mainAE .left-floating {
+	left: 50px;
+}
+
+.mainAE .right-floating {
+	right: 50px;
+}
+
+#nipsey,
+#angela {
+	top: 150px;
+}
+
+.mainAE .intext-image {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
+}
+
+/* .mainAE .hover-flip {
+    flip please
+} */
+/*# sourceMappingURL=MultimediaStyles.css.map */

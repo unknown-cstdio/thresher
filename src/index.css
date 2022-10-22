@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: rgb(0, 36, 105);
+}
+
+a:link {
+  color: #516c8a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #516c8a;
+}
+
+.container {
+  max-width: 540px;
+}
+
+.small-image {
+  position: relative;
+  top: -3px;
+  padding: 0 10px;
+}
+
+.legal {
+  font-size: 0.8em;
+  color: #333;
+}
+
+.newEmail {
+  font-family: 'Roboto', sans-serif;
+} */
