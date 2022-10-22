@@ -6,8 +6,7 @@ import { FormGroup } from 'react-bootstrap';
 import housing_structure from "../../images/housing_structure.png";
 import susceptibility from "../../images/susceptibility.png";
 import hv from "../../images/hv.png";
-import mhv from "../../images/mhv.png";
-import nhw from "../../images/nhw.png";
+
 import MapSelect from '../../components/dataStory/MapSelect';
 
 const datas = [
